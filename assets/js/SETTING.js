@@ -1,6 +1,6 @@
 
 //お店のアドレス
-shopwalletaddress = "0x131231C27A749991270805Ae48754FABB2466d7F";
+shopwalletaddress = "0x4aC5CE2925A3a3DeA48b5220FE963c4A5168Cd2D";
 
 //お値段(JPYC)
 pricing = 500;
