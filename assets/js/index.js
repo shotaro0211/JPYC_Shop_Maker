@@ -29,6 +29,7 @@ async function initmetamask(){
     }
     provider = await new ethers.providers.Web3Provider(window.ethereum);
     signer = await provider.getSigner();
+    console.log(signer);
     useraddress = await signer.getAddress();    
     jpyccontract = await new ethers.Contract( jpyc_on_matic , abi, signer );
     balance = await jpyccontract.balanceOf(useraddress) * 10e-19;
